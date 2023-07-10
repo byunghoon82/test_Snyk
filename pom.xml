@@ -12,7 +12,7 @@
     <repositories>
         <repository>
             <id>maven-release</id>
-            <url>http://trade.osbc.kr:8085/repository/maven-release</url>
+            <url>http://trade.osbc.kr:8081/repository/maven-release</url>
         </repository>
     </repositories>
 
