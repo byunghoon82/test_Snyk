@@ -1,0 +1,9 @@
+<settings>
+  <mirrors>
+    <mirror>
+      <id>maven-release</id>
+      <mirrorOf>*</mirrorOf>
+      <url>http://trade.osbc.kr:8081/repository/maven-release</url>
+    </mirror>
+  </mirrors>
+</settings>    
