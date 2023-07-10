@@ -11,12 +11,12 @@
 
     <repositories>
         <repository>
-            <id>trade</id>
+            <id>maven-release</id>
             <url>http://trade.osbc.kr:8085/repository/maven-release</url>
         </repository>
     </repositories>
 
-	<dependencies>
+     <dependencies>
 		<dependency>
 		  <groupId>org.postgresql</groupId>
 		  <artifactId>postgresql</artifactId>
