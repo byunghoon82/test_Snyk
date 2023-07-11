@@ -1,7 +1,7 @@
 <settings>
   <mirrors>
     <mirror>
-      <id>maven-release</id>
+      <id>maven-releases</id>
       <mirrorOf>*</mirrorOf>
       <url>http://trade.osbc.kr:8085/repository/maven-releases</url>
     </mirror>
