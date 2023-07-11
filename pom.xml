@@ -9,12 +9,7 @@
         <packaging>war</packaging>
         <version>1.0.0-BUILD-SNAPSHOT</version>
 
-    <repositories>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://trade.osbc.kr:8085/repository/maven-releases</url>
-        </repository>
-    </repositories>
+
 
 <dependencies>
          <dependency>
