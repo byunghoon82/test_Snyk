@@ -15,12 +15,21 @@
             <url>http://trade.osbc.kr:8081/repository/maven-release</url>
         </repository>
     </repositories>
-	
-   <dependency>
-       <groupId>fossid-test</groupId>
-        <artifactId>fossid</artifactId>
-        <version>1.0.0</version>
-   </dependency>
+
+<dependencies>
+	 <dependency>
+	   <groupId>org.postgresql</groupId>
+	   <artifactId>postgresql</artifactId>
+	   <version>42.5.0</version>
+	 </dependency>
+		
+	   <dependency>
+	       <groupId>fossid-test</groupId>
+	        <artifactId>fossid</artifactId>
+	        <version>1.0.0</version>
+	   </dependency>
+
+</dependencies>
 
     <build>
     </build>
