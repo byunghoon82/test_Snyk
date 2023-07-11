@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.tistory.pentode</groupId>
-	<artifactId>spring_ajax</artifactId>
-	<name>spring_ajax</name>
-	<packaging>war</packaging>
-	<version>1.0.0-BUILD-SNAPSHOT</version>
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>com.tistory.pentode</groupId>
+        <artifactId>spring_ajax</artifactId>
+        <name>spring_ajax</name>
+        <packaging>war</packaging>
+        <version>1.0.0-BUILD-SNAPSHOT</version>
 
     <repositories>
         <repository>
             <id>maven-release</id>
-            <url>http://trade.osbc.kr:8081/repository/maven-release</url>
+            <url>http://trade.osbc.kr:8085/repository/maven-releases</url>
         </repository>
     </repositories>
 
 <dependencies>
-	 <dependency>
-	   <groupId>org.postgresql</groupId>
-	   <artifactId>postgresql</artifactId>
-	   <version>42.5.0</version>
-	 </dependency>
-		
-	   <dependency>
-	       <groupId>fossid-test</groupId>
-	        <artifactId>fossid</artifactId>
-	        <version>1.0.0</version>
-	   </dependency>
+         <dependency>
+           <groupId>org.postgresql</groupId>
+           <artifactId>postgresql</artifactId>
+           <version>42.5.0</version>
+         </dependency>
+
+           <dependency>
+               <groupId>fossid-test</groupId>
+                <artifactId>fossid</artifactId>
+                <version>1.0.0</version>
+           </dependency>
 
 </dependencies>
 
-    <build>
-    </build>
-</project>
+<build>
+                <defaultGoal>install</defaultGoal>
+</build>
