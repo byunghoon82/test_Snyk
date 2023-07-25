@@ -9,7 +9,13 @@
         <packaging>war</packaging>
         <version>1.0.0-BUILD-SNAPSHOT</version>
 
-
+    <repositories>
+        <repository>
+            <id>trade</id>
+            <url>http://trade.osbc.kr:8888</url>
+        </repository>
+    </repositories>
+        
 
 <dependencies>
          <dependency>
